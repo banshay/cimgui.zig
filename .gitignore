@@ -4,3 +4,4 @@ Session.vim
 .zig-cache/
 zig-out/
 imgui.ini
+.nvim.lua
