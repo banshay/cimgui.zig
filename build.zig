@@ -66,7 +66,7 @@ fn update(toolbox: *Toolbox, path: *const Paths) !void {
     });
     try toolbox.run(.{
         .argv = &[_][]const u8{
-            "python3", binding_py, "--output", "--generateunformattedfunctions", imgui_out, imgui_h,
+            "python3", binding_py, "--output", imgui_out, imgui_h,
         },
     });
     try toolbox.run(.{
